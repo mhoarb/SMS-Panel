@@ -5,7 +5,11 @@ func main() {
 	alborzNegar := AlborzNegar{}
 	mmdNegar := MmdNegar{}
 
-	Kavehnegar.SendMessage(100005, "hello")
-	alborzNegar.SendMessage(100002, "hi")
-	mmdNegar.SendMessage(100005, "sibbbb")
+	loggingSmsPanel := LoggingSmsPanel{
+		kavehNegar: &Kavehnegar,
+		alborzNegar: &alborzNegar,
+		mmdNegar: &mmdNegar,
+	}
+
+	loggingSmsPanel.SendAlborzNegarMessage(1020 , "hello")
 }
