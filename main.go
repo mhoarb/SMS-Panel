@@ -11,5 +11,10 @@ func main() {
 		mmdNegar: &mmdNegar,
 	}
 
-	loggingSmsPanel.SendAlborzNegarMessage(1020 , "hello")
+	loggingSmsPanel.SendAlborzNegarMessage(989121212 , "hello")
+
+	loggingSmsPanel.SendKavehNegarMessage(98912458 , "hi")
+
+	loggingSmsPanel.SendMmdNegarMessage(98912458 , "this is mmd negar panel")
 }
+
