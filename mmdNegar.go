@@ -1,5 +1,8 @@
 package main
-
+/**
+Mmd negar is a sms panel like Kavehnager that have a method SendMessage
+but its call by logging system
+**/
 type MmdNegar struct {
 }
 
