@@ -5,6 +5,10 @@ import (
 	"fmt"
 )
 
+/*
+*
+logging sms panel is a struct and have all my panels
+*/
 type LoggingSmsPanel struct {
 	KavehNegar  *services.Kavehnegar
 	AlborzNegar *services.AlborzNegar
