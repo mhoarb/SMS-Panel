@@ -1,8 +1,11 @@
-package main
-/**
+package services
+
+/*
+*
 Kavehnegar is a sms panel  that have a method SendMessage
 but its call by logging system
-**/
+*
+*/
 type Kavehnegar struct {
 }
 
